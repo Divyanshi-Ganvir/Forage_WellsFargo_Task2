@@ -6,6 +6,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
+
 @Entity
 public class Advisor {
 
@@ -48,9 +49,7 @@ public class Advisor {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+    public void setFirstName(String firstName) { this.firstName = firstName; }
 
     public String getLastName() {
         return lastName;
@@ -84,3 +83,5 @@ public class Advisor {
         this.email = email;
     }
 }
+
+
