@@ -11,5 +11,6 @@
 
 ### **Technology Stack:**
 - Java
-- JPA
+- Java Persistence
 - Spring Framework
+
